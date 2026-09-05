@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "repository": "https://github.com/RPDevs-Builds/RPDev-Feed-Modules",
-  "lastUpdated": "2026-09-03T21:45:00Z",
+  "lastUpdated": "2026-09-05T16:40:00Z",
   "modules": [
     {
       "id": "plugin_weather",
@@ -9,7 +9,7 @@
       "category": "Weather & Environment",
       "summary": "Zero-telemetry live weather, radar, and hourly forecast from Open-Meteo.",
       "description": "Comprehensive weather card with temperature, feels-like, humidity, wind speeds, and hourly forecast from Open-Meteo with no user tracking. Supports location search by address/zip and optional GPS location access.",
-      "version": "1.1.0",
+      "version": "1.0.1",
       "author": "RPDevs",
       "icon": "SunDim",
       "isDefaultInstalled": true,
@@ -34,13 +34,14 @@
         },
         {
           "key": "use_fahrenheit",
-          "label": "Use Fahrenheit (°F)",
+          "label": "Use Fahrenheit (\u00b0F)",
           "defaultValue": "false",
           "description": "Toggle between Celsius and Fahrenheit units."
         }
       ],
       "downloadUrl": "https://github.com/RPDevs-Builds/RPDev-Feed-Modules/releases/download/v1.1.0/plugin_weather.apk",
-      "cdnDownloadUrl": "https://cdn.iamrp.dev/feed/modules/plugin_weather-v1.1.0.apk"
+      "cdnDownloadUrl": "https://cdn.iamrp.dev/feed/modules/plugin_weather-v1.1.0.apk",
+      "documentationUrl": "https://repo.launcher.iamrp.dev/catalog/modules/weather"
     },
     {
       "id": "plugin_sensors",
@@ -48,13 +49,14 @@
       "category": "System & Hardware",
       "summary": "Real-time battery charging wattage, voltage, temperature, internal storage, and RAM memory pressure.",
       "description": "Live device diagnostics card displaying real-time battery percentage, charging wattage, battery temperature, RAM usage, and available internal disk storage.",
-      "version": "1.1.0",
+      "version": "1.0.1",
       "author": "RPDevs",
       "icon": "BatteryCharging",
       "isDefaultInstalled": true,
       "configFields": [],
       "downloadUrl": "https://github.com/RPDevs-Builds/RPDev-Feed-Modules/releases/download/v1.1.0/plugin_sensors.apk",
-      "cdnDownloadUrl": "https://cdn.iamrp.dev/feed/modules/plugin_sensors-v1.1.0.apk"
+      "cdnDownloadUrl": "https://cdn.iamrp.dev/feed/modules/plugin_sensors-v1.1.0.apk",
+      "documentationUrl": "https://repo.launcher.iamrp.dev/catalog/modules/sensors"
     },
     {
       "id": "plugin_calendar",
@@ -62,7 +64,7 @@
       "category": "Productivity & Calendar",
       "summary": "On-device agenda engine querying your upcoming 24-hour schedule.",
       "description": "Displays upcoming calendar events from on-device Android calendars with zero telemetry. Automatically highlights all-day events and provides 1-tap navigation to the default calendar app.",
-      "version": "1.1.0",
+      "version": "1.0.1",
       "author": "RPDevs",
       "icon": "Calendar",
       "isDefaultInstalled": false,
@@ -81,7 +83,8 @@
         }
       ],
       "downloadUrl": "https://github.com/RPDevs-Builds/RPDev-Feed-Modules/releases/download/v1.1.0/plugin_calendar.apk",
-      "cdnDownloadUrl": "https://cdn.iamrp.dev/feed/modules/plugin_calendar-v1.1.0.apk"
+      "cdnDownloadUrl": "https://cdn.iamrp.dev/feed/modules/plugin_calendar-v1.1.0.apk",
+      "documentationUrl": "https://repo.launcher.iamrp.dev/catalog/modules/calendar"
     },
     {
       "id": "plugin_github",
@@ -89,7 +92,7 @@
       "category": "Developer & Code",
       "summary": "Live GitHub PR review requests, workflow CI runs, assigned issues, and commit activity.",
       "description": "Connects to the GitHub API via personal access token to track open pull requests, continuous integration workflow results across your repositories, and unread notifications.",
-      "version": "1.1.0",
+      "version": "1.0.1",
       "author": "RPDevs",
       "icon": "GitBranch",
       "isDefaultInstalled": false,
@@ -114,7 +117,8 @@
         }
       ],
       "downloadUrl": "https://github.com/RPDevs-Builds/RPDev-Feed-Modules/releases/download/v1.1.0/plugin_github.apk",
-      "cdnDownloadUrl": "https://cdn.iamrp.dev/feed/modules/plugin_github-v1.1.0.apk"
+      "cdnDownloadUrl": "https://cdn.iamrp.dev/feed/modules/plugin_github-v1.1.0.apk",
+      "documentationUrl": "https://repo.launcher.iamrp.dev/catalog/modules/github"
     },
     {
       "id": "plugin_web_scraper",
@@ -122,7 +126,7 @@
       "category": "Developer & Code",
       "summary": "Scrape websites, track content changes via MD5 hash diffs, and monitor specific keywords or alerts.",
       "description": "Periodic HTML scraping engine using Jsoup. Monitors target URLs for content modifications or specific keyword appearances, displaying alerts and direct links in the feed.",
-      "version": "1.1.0",
+      "version": "1.0.1",
       "author": "RPDevs",
       "icon": "Globe",
       "isDefaultInstalled": false,
@@ -153,7 +157,8 @@
         }
       ],
       "downloadUrl": "https://github.com/RPDevs-Builds/RPDev-Feed-Modules/releases/download/v1.1.0/plugin_web_scraper.apk",
-      "cdnDownloadUrl": "https://cdn.iamrp.dev/feed/modules/plugin_web_scraper-v1.1.0.apk"
+      "cdnDownloadUrl": "https://cdn.iamrp.dev/feed/modules/plugin_web_scraper-v1.1.0.apk",
+      "documentationUrl": "https://repo.launcher.iamrp.dev/catalog/modules/web-scraper"
     },
     {
       "id": "plugin_dynamic_rest",
@@ -161,7 +166,7 @@
       "category": "Custom REST / Webhooks",
       "summary": "Poll arbitrary HTTP JSON APIs (Home Assistant, Uptime Kuma, Gotify, Docker) and render as cards.",
       "description": "Declarative JSON REST client that executes periodic HTTP GET requests with custom headers, extracting JSON keys using dot-notation into chips, status badges, and timeline items.",
-      "version": "1.1.0",
+      "version": "1.0.1",
       "author": "RPDevs",
       "icon": "Cloud",
       "isDefaultInstalled": false,
@@ -192,7 +197,8 @@
         }
       ],
       "downloadUrl": "https://github.com/RPDevs-Builds/RPDev-Feed-Modules/releases/download/v1.1.0/plugin_dynamic_rest.apk",
-      "cdnDownloadUrl": "https://cdn.iamrp.dev/feed/modules/plugin_dynamic_rest-v1.1.0.apk"
+      "cdnDownloadUrl": "https://cdn.iamrp.dev/feed/modules/plugin_dynamic_rest-v1.1.0.apk",
+      "documentationUrl": "https://repo.launcher.iamrp.dev/catalog/modules/dynamic-rest"
     },
     {
       "id": "module_home_assistant",
@@ -200,7 +206,7 @@
       "category": "Smart Home & IoT",
       "summary": "Display smart home entity states, temperature sensors, lights, and climate controls.",
       "description": "Integrates with Home Assistant REST API to display real-time sensor states, presence detection, and environment telemetry directly in the RPDev Feed.",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "author": "RPDevs",
       "icon": "House",
       "isDefaultInstalled": false,
@@ -225,7 +231,8 @@
         }
       ],
       "downloadUrl": "https://github.com/RPDevs-Builds/RPDev-Feed-Modules/releases/download/v1.0.0/module_home_assistant.apk",
-      "cdnDownloadUrl": "https://cdn.iamrp.dev/feed/modules/module_home_assistant-v1.0.0.apk"
+      "cdnDownloadUrl": "https://cdn.iamrp.dev/feed/modules/module_home_assistant-v1.0.0.apk",
+      "documentationUrl": "https://repo.launcher.iamrp.dev/catalog/modules/home-assistant"
     },
     {
       "id": "module_docker_telemetry",
@@ -233,7 +240,7 @@
       "category": "DevOps & Infrastructure",
       "summary": "Track container statuses, CPU/memory consumption, and uptime across host nodes.",
       "description": "Polls Docker daemon or Portainer API endpoints to display active container counts, failed health checks, and server load metrics.",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "author": "RPDevs",
       "icon": "Cpu",
       "isDefaultInstalled": false,
@@ -252,7 +259,8 @@
         }
       ],
       "downloadUrl": "https://github.com/RPDevs-Builds/RPDev-Feed-Modules/releases/download/v1.0.0/module_docker_telemetry.apk",
-      "cdnDownloadUrl": "https://cdn.iamrp.dev/feed/modules/module_docker_telemetry-v1.0.0.apk"
+      "cdnDownloadUrl": "https://cdn.iamrp.dev/feed/modules/module_docker_telemetry-v1.0.0.apk",
+      "documentationUrl": "https://repo.launcher.iamrp.dev/catalog/modules/docker-telemetry"
     },
     {
       "id": "module_uptime_kuma",
@@ -260,7 +268,7 @@
       "category": "DevOps & Infrastructure",
       "summary": "Monitor service uptime, response latencies, and incident status from Uptime Kuma.",
       "description": "Fetches service status pages and heartbeat data from self-hosted Uptime Kuma monitoring instances.",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "author": "RPDevs",
       "icon": "Activity",
       "isDefaultInstalled": false,
@@ -273,7 +281,8 @@
         }
       ],
       "downloadUrl": "https://github.com/RPDevs-Builds/RPDev-Feed-Modules/releases/download/v1.0.0/module_uptime_kuma.apk",
-      "cdnDownloadUrl": "https://cdn.iamrp.dev/feed/modules/module_uptime_kuma-v1.0.0.apk"
+      "cdnDownloadUrl": "https://cdn.iamrp.dev/feed/modules/module_uptime_kuma-v1.0.0.apk",
+      "documentationUrl": "https://repo.launcher.iamrp.dev/catalog/modules/uptime-kuma"
     }
   ],
   "cdnOrigin": "https://cdn.iamrp.dev",
