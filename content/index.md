@@ -3,7 +3,13 @@ title: "RPDev Repository"
 description: "Central package registry, module catalog, and distribution hub for RPDev Launcher and RPDev Feed."
 ---
 
-# RPDev Repository
+# RPDev Repository (Migrated)
+
+> [!important] Endpoint Migration Notice
+> The **RPDev Launcher Module Registry** has permanently migrated to the standardized ecosystem domain:
+> 👉 **[`https://launcher.repo.iamrp.dev/`](https://launcher.repo.iamrp.dev/)**
+>
+> Please update your bookmarks, API sync endpoints, and gradle build targets.
 
 > Sovereign package repository, JSON API catalogs, and module registry for the RPDev mobile application ecosystem.
 
