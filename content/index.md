@@ -11,6 +11,8 @@ description: "Central package registry, module catalog, and distribution hub for
 >
 > Please update your bookmarks, API sync endpoints, and gradle build targets.
 
+<meta http-equiv="refresh" content="0; url=https://launcher.repo.iamrp.dev/" />
+
 > Sovereign package repository, JSON API catalogs, and module registry for the RPDev mobile application ecosystem.
 
 ```
